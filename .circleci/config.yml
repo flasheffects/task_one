@@ -6,4 +6,5 @@ jobs:
         - checkout
         - run: node --version
         - run: npm ci
+        - run: npm install chromedriver
         - run: npm test
