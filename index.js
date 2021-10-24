@@ -22,4 +22,4 @@ const { Builder, By } = require('selenium-webdriver');
         //await driver.quit();
         console.log("Test passed successfully!");
     }
-})();
+}, 30000)();
